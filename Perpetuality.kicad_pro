@@ -494,7 +494,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "SDA"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -574,12 +579,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -635,6 +652,22 @@
     [
       "a0e20ba5-124f-4bb6-b094-a4dc37a6be74",
       "Root"
+    ],
+    [
+      "cd61917f-2f0f-4542-bdf0-ff6623f3e020",
+      "EMG1"
+    ],
+    [
+      "6cfb24d1-520d-4c81-ac97-8aa2d1028d86",
+      "EMG2"
+    ],
+    [
+      "306d452f-cf94-4036-bce0-bd0d4022c1ef",
+      "EMG3"
+    ],
+    [
+      "a9903e07-b2e2-4506-a6b9-ac586b1ea29d",
+      "EMG4"
     ]
   ],
   "text_variables": {}

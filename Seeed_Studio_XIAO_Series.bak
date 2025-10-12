@@ -11459,7 +11459,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -18.542 23.114 0)
+			(at -19.812 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11468,7 +11468,7 @@
 			)
 		)
 		(property "Value" "XIAO-nRF52840-SMD"
-			(at -8.636 21.336 0)
+			(at -9.906 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,8 +11505,8 @@
 		)
 		(symbol "XIAO-nRF52840-SMD_0_1"
 			(rectangle
-				(start -17.78 20.32)
-				(end 19.05 -19.05)
+				(start -19.05 19.05)
+				(end 17.78 -20.32)
 				(stroke
 					(width 0)
 					(type default)
@@ -11518,7 +11518,7 @@
 		)
 		(symbol "XIAO-nRF52840-SMD_1_1"
 			(pin input line
-				(at -20.32 11.43 0)
+				(at -21.59 10.16 0)
 				(length 2.54)
 				(name "P0.02_A0_D0"
 					(effects
@@ -11536,7 +11536,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 7.62 0)
+				(at -21.59 6.35 0)
 				(length 2.54)
 				(name "P0.03_A1_D1"
 					(effects
@@ -11554,7 +11554,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 3.81 0)
+				(at -21.59 2.54 0)
 				(length 2.54)
 				(name "P0.28_A2_D2"
 					(effects
@@ -11572,7 +11572,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 0 0)
+				(at -21.59 -1.27 0)
 				(length 2.54)
 				(name "P0.29_A3_D3"
 					(effects
@@ -11590,7 +11590,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -3.81 0)
+				(at -21.59 -5.08 0)
 				(length 2.54)
 				(name "P0.04_A4_D4_SDA"
 					(effects
@@ -11608,7 +11608,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -7.62 0)
+				(at -21.59 -8.89 0)
 				(length 2.54)
 				(name "P0.05_A5_D5_SCL"
 					(effects
@@ -11626,7 +11626,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -11.43 0)
+				(at -21.59 -12.7 0)
 				(length 2.54)
 				(name "P1.11_D6_TX"
 					(effects
@@ -11644,7 +11644,7 @@
 				)
 			)
 			(pin power_out line
-				(at -6.35 -21.59 90)
+				(at -7.62 -22.86 90)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -11662,7 +11662,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -3.81 22.86 270)
+				(at -5.08 21.59 270)
 				(length 2.54)
 				(name "PA31_SWDIO"
 					(effects
@@ -11680,7 +11680,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 -21.59 90)
+				(at -2.54 -22.86 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -11698,7 +11698,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 22.86 270)
+				(at -1.27 21.59 270)
 				(length 2.54)
 				(name "PA30_SWCLK"
 					(effects
@@ -11716,7 +11716,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 22.86 270)
+				(at 2.54 21.59 270)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -11734,7 +11734,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 3.81 -21.59 90)
+				(at 2.54 -22.86 90)
 				(length 2.54)
 				(name "NFC1"
 					(effects
@@ -11752,7 +11752,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 22.86 270)
+				(at 6.35 21.59 270)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -11770,7 +11770,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 8.89 -21.59 90)
+				(at 7.62 -22.86 90)
 				(length 2.54)
 				(name "NFC2"
 					(effects
@@ -11788,7 +11788,7 @@
 				)
 			)
 			(pin power_out line
-				(at 21.59 11.43 180)
+				(at 20.32 10.16 180)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -11806,7 +11806,7 @@
 				)
 			)
 			(pin power_in line
-				(at 21.59 7.62 180)
+				(at 20.32 6.35 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -11824,7 +11824,7 @@
 				)
 			)
 			(pin power_out line
-				(at 21.59 3.81 180)
+				(at 20.32 2.54 180)
 				(length 2.54)
 				(name "3V3"
 					(effects
@@ -11842,7 +11842,7 @@
 				)
 			)
 			(pin output line
-				(at 21.59 0 180)
+				(at 20.32 -1.27 180)
 				(length 2.54)
 				(name "P1.15_D10_MOSI"
 					(effects
@@ -11860,7 +11860,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -3.81 180)
+				(at 20.32 -5.08 180)
 				(length 2.54)
 				(name "P1.14_D9_MISO"
 					(effects
@@ -11878,7 +11878,7 @@
 				)
 			)
 			(pin output line
-				(at 21.59 -7.62 180)
+				(at 20.32 -8.89 180)
 				(length 2.54)
 				(name "P1.13_D8_SCK"
 					(effects
@@ -11896,7 +11896,7 @@
 				)
 			)
 			(pin input line
-				(at 21.59 -11.43 180)
+				(at 20.32 -12.7 180)
 				(length 2.54)
 				(name "P1.12_D7_RX"
 					(effects
