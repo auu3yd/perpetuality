@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.4"
     },
-    "CreationDate": "2025-10-05T21:59:59-04:00"
+    "CreationDate": "2025-11-03T10:18:42-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,10 +14,10 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 33.05,
-      "Y": 36.55
+      "X": 29.25,
+      "Y": 34.45
     },
-    "LayerNumber": 2,
+    "LayerNumber": 6,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -30,17 +30,46 @@
       "MinLineWidth": 0.2,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.0,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.5,
+      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Perpetuality-F_Cu.gbr",
+      "Path": "Perpetuality-top_signal.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Perpetuality-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
+      "Path": "Perpetuality-1v8_signal.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Perpetuality-dgnd.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Perpetuality-5v.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Perpetuality-agnd.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Perpetuality-3v3.gbr",
+      "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -90,24 +119,77 @@
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Name": "F.Cu"
+      "Thickness": 0.035,
+      "Name": "top.signal"
     },
     {
       "Type": "Dielectric",
+      "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "F.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
+      "Name": "top.signal/1v8.signal",
+      "Notes": "Type: dielectric layer 1 (from top.signal to 1v8.signal)"
     },
     {
       "Type": "Copper",
-      "Name": "B.Cu"
+      "Thickness": 0.035,
+      "Name": "1v8.signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "1v8.signal/dgnd",
+      "Notes": "Type: dielectric layer 2 (from 1v8.signal to dgnd)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "dgnd"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "dgnd/5v",
+      "Notes": "Type: dielectric layer 3 (from dgnd to 5v)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "5v"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "5v/agnd",
+      "Notes": "Type: dielectric layer 4 (from 5v to agnd)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "agnd"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "agnd/3v3",
+      "Notes": "Type: dielectric layer 5 (from agnd to 3v3)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "3v3"
     },
     {
       "Type": "SolderMask",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
